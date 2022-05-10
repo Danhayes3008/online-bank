@@ -11,20 +11,6 @@ import InternetBanking from './links/InternetBanking';
 const Personnel =() => {
   return (
     <div className='App'>
-      <nav className='bottom-nav'>
-        <ul>
-          <li>
-            <NavLink to="/Personnel">Bank of England</NavLink>
-          </li>
-        </ul>
-        <ul className='nav-list-2'>
-          <li>
-            <NavLink to="/login">Login</NavLink>
-            <NavLink to="/register">Register</NavLink>
-            <NavLink to="/Help">Help & Support</NavLink>
-          </li>
-        </ul>
-      </nav>
       <div>
         <img className='banner-img' src={banner} alt="" />
       </div>
@@ -40,24 +26,24 @@ const Personnel =() => {
             </div>
             <div className='banner-login card g-2'>
               <ul>
-                <li>
+                <li className='banner-item-1'>
                   <h2>Login into Internet Banking</h2>
-                  <a className='login-btn' href="#">Login</a>
-                  <a className='register-btn' href="#">Register</a>
+                  <NavLink className='login-btn' to="/login">Login</NavLink>
+                  <NavLink className='register-btn' to="/register">Register</NavLink>
                 </li>
-                <li>
+                <li className='banner-item-2'>
                 <a href="#">See how much you could borrow with a loan</a>
                 </li>
-                <li>
+                <li className='banner-item-2'>
                 <a href="#">Checkyour credit card eligibility</a>
                 </li>
-                <li>
+                <li className='banner-item-2'>
                   <a href="#">Make the most of the new ISA allowance</a>
                 </li>
-                <li>
+                <li className='banner-item-2'>
                   <a href="#">Take a look at our 10 year fixed rate mortgages</a>
                 </li>
-              </ul>              
+              </ul>
             </div>
           </div>
         </div>

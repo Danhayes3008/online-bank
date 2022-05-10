@@ -9,20 +9,6 @@ a {
   text-decoration: none;
 }
 
-.banner {
-  position: absolute;
-  top: 250px;
-  z-index: 1000;
-}
-
-.bannger .g-1 {
-  background-color: transparent !important;
-}
-
-.banner-img {
-  width: 100%;
-}
-
 li {
   list-style: none;
 }
@@ -41,11 +27,29 @@ li {
   text-align: left;
 }
 
+.savings-link {
+  width: 19vw;
+}
+
+.savings-link h3 {
+  width: 100%;
+  display: block;
+}
+
 .savings-link a {
+  display: block;
+  width: 11vw;
   padding: 20px;
-  color: #186cc0;
+  color: white;
   font-weight: bold;
+  text-align: center;
+  background-color: #186cc0;
+}
+
+.savings-link a:hover {
   background-color: white;
+  border: 1px solid #186cc0;
+  color: #186cc0;
 }
 
 .row {

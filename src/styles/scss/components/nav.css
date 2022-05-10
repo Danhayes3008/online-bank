@@ -1,36 +1,3 @@
-.bottom-nav {
-  background-color: #186cc0;
-  text-align: center;
-}
-
-.bottom-nav ul {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  margin: 0;
-}
-
-.bottom-nav ul li a {
-  border-left: 1px solid black;
-}
-
-.bottom-nav ul li {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-}
-
-.bottom-nav ul li a {
-  color: white;
-  padding: 10px;
-  font-size: 20px;
-}
-
-.bottom-nav ul li a:hover {
-  color: #186cc0;
-  background-color: white;
-}
-
 .BusinessBanking {
   border-right: 2px solid black;
 }
@@ -38,10 +5,6 @@
 .personnelBanking {
   border-left: 2px solid black;
   border-right: 2px solid black;
-}
-
-.nav-list-2 {
-  padding: 0px;
 }
 
 .top-nav {

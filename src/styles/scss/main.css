@@ -27,6 +27,41 @@ li {
   text-align: left;
 }
 
+.savings-link {
+  width: 19vw;
+}
+
+.savings-link h3 {
+  width: 100%;
+  display: block;
+}
+
+.savings-link a {
+  display: block;
+  width: 11vw;
+  padding: 20px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  background-color: #186cc0;
+}
+
+.login-btn {
+  padding: 15px;
+  margin-bottom: 1vw;
+  background-color: #2b2bad;
+  color: white;
+  margin-left: 3vw;
+}
+
+.register-btn {
+  background-color: white;
+  color: #2b2bad;
+  border: 1px solid #2b2bad;
+  padding: 15px;
+  margin-left: 4vw;
+}
+
 .row {
   display: -ms-grid;
   display: grid;
@@ -85,9 +120,13 @@ li {
   grid-column: span 12;
 }
 
+.card-head {
+  height: 60px;
+}
+
 .card div span {
-  padding-top: 10px;
-  padding-bottom: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   padding-left: 20px;
   padding-right: 20px;
   font-size: 20px;
@@ -106,10 +145,22 @@ li {
   margin-top: auto;
 }
 
+.card .btn span {
+  border: 1px solid #186cc0;
+  color: #186cc0;
+}
+
 .g-1 {
   width: inherit;
   background-color: white;
   padding: 15px;
+}
+
+.g-1-banner {
+  width: inherit;
+  background-color: transparent;
+  padding: 15px;
+  margin-left: -15px;
 }
 
 .g-1 h2 {
@@ -128,6 +179,66 @@ li {
   color: #186cc0;
   font: inherit;
   font-size: 1.2rem;
+}
+
+.info {
+  height: 400px;
+}
+
+.banner {
+  position: absolute;
+  top: 150px;
+  z-index: 1000;
+}
+
+.banner-item-1 {
+  padding-top: 15px;
+  margin-bottom: 2vw;
+}
+
+.banner-item-2 {
+  width: 100%;
+  background-color: #2b2bad;
+}
+
+.banner-item-2 a {
+  padding-top: 10px;
+  border-bottom: 1px solid black;
+  height: 100%;
+  padding-bottom: 10px;
+  color: white;
+  padding-left: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.banner-login {
+  background-color: rgba(43, 43, 173, 0.5);
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-left: 28vw;
+  width: 18vw;
+}
+
+.banner-login ul {
+  padding: 0;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.banner-login h2 {
+  margin-bottom: 3vh;
+  text-align: center;
+}
+
+.bannger .g-1 {
+  background-color: transparent !important;
+}
+
+.banner-img {
+  width: 100%;
 }
 
 .bottom-nav {

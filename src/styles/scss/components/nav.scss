@@ -1,36 +1,9 @@
-.bottom-nav{
-    background-color: rgb(24, 108, 192);
-    text-align: center;
-}
-.bottom-nav ul{
-    display: inline-flex;
-    margin: 0;
-}
-.bottom-nav ul li a{
-    border-left: 1px solid black;
-}
-.bottom-nav ul li{
-    display: inline-flex;
-}
-.bottom-nav ul li a{
-    color: white;
-    padding: 10px;
-    font-size: 20px;
-}
-.bottom-nav ul li a:hover{
-    color:  rgb(24, 108, 192);
-    background-color: white;
-}
-
 .BusinessBanking{
     border-right: 2px solid black;
 }
 .personnelBanking{
     border-left: 2px solid black;
     border-right: 2px solid black;
-}
-.nav-list-2{
-    padding: 0px;
 }
 .top-nav{
     height: 60px;

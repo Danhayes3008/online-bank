@@ -1,0 +1,89 @@
+body{
+  padding: 0px;
+  margin: 0px;
+  font-family: sans-serif;
+  background-color: #efedea;
+}
+
+a{
+  text-decoration: none;
+}
+
+.banner{
+  position: absolute;
+  top: 150px;
+  z-index: 1000;
+}
+
+.banner-login{
+  background-color: white;
+  display: inline-flex;
+  margin-left: 28vw;
+  width: 18vw;
+  padding: 15px;
+}
+
+.bannger .g-1{
+  background-color: transparent !important;
+}
+
+.banner-img{
+  width: 100%;
+}
+
+li{
+  list-style: none;
+}
+
+#root{
+  margin-top: -16px;
+}
+
+.text-center{
+  display: block;
+  text-align: center;
+}
+
+.text-left{
+  display: block;
+  text-align: left;
+}
+
+.savings-link{
+  width: 19vw;
+}
+
+.savings-link h3{
+  width: 100%;
+  display: block;
+}
+
+.savings-link a{
+  display: block;
+  width: 11vw;
+  padding: 20px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  background-color: rgb(24, 108, 192);
+}
+
+.login-btn{
+  padding: 15px;
+}
+
+.row{
+  display: grid;
+  padding: 30px;
+  margin-left: 15vw;
+  width: 68vw;
+  grid-template-columns: repeat(12, 1fr);
+
+  .card-{
+    @for $i from 1 through 12{
+      &.g-#{$i}{
+        grid-column: span #{$i};
+      }
+    }
+  }
+}

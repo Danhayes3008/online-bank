@@ -1,0 +1,209 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: sans-serif;
+  background-color: #efedea;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+#root {
+  margin-top: -16px;
+}
+
+.text-center {
+  display: block;
+  text-align: center;
+}
+
+.text-left {
+  display: block;
+  text-align: left;
+}
+
+.row {
+  display: -ms-grid;
+  display: grid;
+  padding: 30px;
+  margin-left: 15vw;
+  width: 68vw;
+  -ms-grid-columns: (1fr)[12];
+      grid-template-columns: repeat(12, 1fr);
+}
+
+.row .card-.g-1 {
+  grid-column: span 1;
+}
+
+.row .card-.g-2 {
+  grid-column: span 2;
+}
+
+.row .card-.g-3 {
+  grid-column: span 3;
+}
+
+.row .card-.g-4 {
+  grid-column: span 4;
+}
+
+.row .card-.g-5 {
+  grid-column: span 5;
+}
+
+.row .card-.g-6 {
+  grid-column: span 6;
+}
+
+.row .card-.g-7 {
+  grid-column: span 7;
+}
+
+.row .card-.g-8 {
+  grid-column: span 8;
+}
+
+.row .card-.g-9 {
+  grid-column: span 9;
+}
+
+.row .card-.g-10 {
+  grid-column: span 10;
+}
+
+.row .card-.g-11 {
+  grid-column: span 11;
+}
+
+.row .card-.g-12 {
+  grid-column: span 12;
+}
+
+.card div span {
+  padding-top: 10px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 20px;
+  height: 250px;
+}
+
+.card .btn {
+  position: relative;
+}
+
+.card .btn a {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  margin-top: auto;
+}
+
+.g-1 {
+  width: inherit;
+  background-color: white;
+  padding: 15px;
+}
+
+.g-1 h2 {
+  margin-top: 0px;
+}
+
+.g-3 {
+  width: 20vw;
+  background-color: white;
+  margin-top: 15px;
+  margin-right: 47px;
+  padding: 15px;
+}
+
+.g-3 ul li a {
+  color: #186cc0;
+  font: inherit;
+  font-size: 1.2rem;
+}
+
+.bottom-nav {
+  background-color: #186cc0;
+  text-align: center;
+}
+
+.bottom-nav ul {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin: 0;
+}
+
+.bottom-nav ul li a {
+  border-left: 1px solid black;
+}
+
+.bottom-nav ul li {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.bottom-nav ul li a {
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.bottom-nav ul li a:hover {
+  color: #186cc0;
+  background-color: white;
+}
+
+.BusinessBanking {
+  border-right: 2px solid black;
+}
+
+.personnelBanking {
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
+
+.nav-list-2 {
+  padding: 0px;
+}
+
+.top-nav {
+  height: 60px;
+  padding: 10px;
+  background-color: #2b2bad;
+  text-align: center;
+}
+
+.top-nav ul {
+  margin: 0px;
+  height: 60px;
+}
+
+.top-nav ul li {
+  height: 100%;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.top-nav ul li a {
+  height: 100%;
+  padding: 10px;
+  padding-bottom: 0px;
+  line-height: 2.5;
+  font-size: 20px;
+  color: white;
+}
+
+.top-nav ul li a:hover {
+  background-color: #186cc0;
+}

@@ -1,0 +1,77 @@
+.bottom-nav {
+  background-color: #186cc0;
+  text-align: center;
+}
+
+.bottom-nav ul {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin: 0;
+}
+
+.bottom-nav ul li a {
+  border-left: 1px solid black;
+}
+
+.bottom-nav ul li {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.bottom-nav ul li a {
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.bottom-nav ul li a:hover {
+  color: #186cc0;
+  background-color: white;
+}
+
+.BusinessBanking {
+  border-right: 2px solid black;
+}
+
+.personnelBanking {
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
+
+.nav-list-2 {
+  padding: 0px;
+}
+
+.top-nav {
+  height: 60px;
+  padding: 10px;
+  background-color: #2b2bad;
+  text-align: center;
+}
+
+.top-nav ul {
+  margin: 0px;
+  height: 60px;
+}
+
+.top-nav ul li {
+  height: 100%;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.top-nav ul li a {
+  height: 100%;
+  padding: 10px;
+  padding-bottom: 0px;
+  line-height: 2.5;
+  font-size: 20px;
+  color: white;
+}
+
+.top-nav ul li a:hover {
+  background-color: #186cc0;
+}

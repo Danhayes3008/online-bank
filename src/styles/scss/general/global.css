@@ -1,0 +1,107 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: sans-serif;
+  background-color: #efedea;
+}
+
+a {
+  text-decoration: none;
+}
+
+.banner {
+  position: absolute;
+  top: 250px;
+  z-index: 1000;
+}
+
+.bannger .g-1 {
+  background-color: transparent !important;
+}
+
+.banner-img {
+  width: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+#root {
+  margin-top: -16px;
+}
+
+.text-center {
+  display: block;
+  text-align: center;
+}
+
+.text-left {
+  display: block;
+  text-align: left;
+}
+
+.savings-link a {
+  padding: 20px;
+  color: #186cc0;
+  font-weight: bold;
+  background-color: white;
+}
+
+.row {
+  display: -ms-grid;
+  display: grid;
+  padding: 30px;
+  margin-left: 15vw;
+  width: 68vw;
+  -ms-grid-columns: (1fr)[12];
+      grid-template-columns: repeat(12, 1fr);
+}
+
+.row .card-.g-1 {
+  grid-column: span 1;
+}
+
+.row .card-.g-2 {
+  grid-column: span 2;
+}
+
+.row .card-.g-3 {
+  grid-column: span 3;
+}
+
+.row .card-.g-4 {
+  grid-column: span 4;
+}
+
+.row .card-.g-5 {
+  grid-column: span 5;
+}
+
+.row .card-.g-6 {
+  grid-column: span 6;
+}
+
+.row .card-.g-7 {
+  grid-column: span 7;
+}
+
+.row .card-.g-8 {
+  grid-column: span 8;
+}
+
+.row .card-.g-9 {
+  grid-column: span 9;
+}
+
+.row .card-.g-10 {
+  grid-column: span 10;
+}
+
+.row .card-.g-11 {
+  grid-column: span 11;
+}
+
+.row .card-.g-12 {
+  grid-column: span 12;
+}

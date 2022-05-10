@@ -1,0 +1,63 @@
+.card-head {
+  height: 60px;
+}
+
+.card div span {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 20px;
+  height: 250px;
+}
+
+.card .btn {
+  position: relative;
+}
+
+.card .btn a {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  margin-top: auto;
+}
+
+.card .btn span {
+  border: 1px solid #186cc0;
+  color: #186cc0;
+}
+
+.g-1 {
+  width: inherit;
+  background-color: white;
+  padding: 15px;
+}
+
+.g-1-banner {
+  width: inherit;
+  background-color: transparent;
+  padding: 15px;
+}
+
+.g-1 h2 {
+  margin-top: 0px;
+}
+
+.g-3 {
+  width: 20vw;
+  background-color: white;
+  margin-top: 15px;
+  margin-right: 47px;
+  padding: 15px;
+}
+
+.g-3 ul li a {
+  color: #186cc0;
+  font: inherit;
+  font-size: 1.2rem;
+}
+
+.info {
+  height: 400px;
+}
